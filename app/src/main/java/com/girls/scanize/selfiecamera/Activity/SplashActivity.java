@@ -116,12 +116,10 @@ public class SplashActivity extends AppCompatActivity {
             public void onResponse(Call<SubStatusModel> call, Response<SubStatusModel> response) {
                 if (response.isSuccessful()) {
                     SubStatusModel adsDataModel = response.body();
-                    Log.i(TAG, "onFailure: " + adsDataModel.getErrorMessage());
                     if (adsDataModel.getResponse().equals("SUCCESS")) {
                         progressBar.setVisibility(View.GONE);
                         startActivity(new Intent(SplashActivity.this, MainActivity.class));
                         finish();
-
                     } else {
                         progressBar.setVisibility(View.GONE);
                         startActivity(new Intent(SplashActivity.this, LoginActivity.class));
