@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Scanize</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="_20">+20</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verification">Verification</string>
+</resources>
