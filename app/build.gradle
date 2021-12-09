@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.girls.scanize.selfiecamera"
+        applicationId "com.app.scanize.pl"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
@@ -44,5 +44,8 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
 
     implementation 'androidx.browser:browser:1.2.0'
+
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:17.4.0'
 
 }
